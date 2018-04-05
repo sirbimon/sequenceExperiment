@@ -13,6 +13,8 @@
 		E7A5EF152072B63C0017C3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A5EF142072B63C0017C3CC /* Assets.xcassets */; };
 		E7A5EF182072B63C0017C3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A5EF162072B63C0017C3CC /* LaunchScreen.storyboard */; };
 		E7A5EF202072C4DE0017C3CC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A5EF1F2072C4DE0017C3CC /* UIViewExtension.swift */; };
+		E7C31B6A207571900050D14B /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C31B69207571900050D14B /* SquareView.swift */; };
+		E7D8BD822073F6F400B01C00 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BD812073F6F400B01C00 /* BubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E7A5EF172072B63C0017C3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7A5EF192072B63C0017C3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7A5EF1F2072C4DE0017C3CC /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E7C31B69207571900050D14B /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		E7D8BD812073F6F400B01C00 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E7A5EF0D2072B63C0017C3CC /* AppDelegate.swift */,
 				E7A5EF0F2072B63C0017C3CC /* ViewController.swift */,
 				E7A5EF1F2072C4DE0017C3CC /* UIViewExtension.swift */,
+				E7C31B69207571900050D14B /* SquareView.swift */,
+				E7D8BD812073F6F400B01C00 /* BubbleView.swift */,
 				E7A5EF112072B63C0017C3CC /* Main.storyboard */,
 				E7A5EF142072B63C0017C3CC /* Assets.xcassets */,
 				E7A5EF162072B63C0017C3CC /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A5EF202072C4DE0017C3CC /* UIViewExtension.swift in Sources */,
+				E7C31B6A207571900050D14B /* SquareView.swift in Sources */,
 				E7A5EF102072B63C0017C3CC /* ViewController.swift in Sources */,
+				E7D8BD822073F6F400B01C00 /* BubbleView.swift in Sources */,
 				E7A5EF0E2072B63C0017C3CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3P6GNU744;
 				INFOPLIST_FILE = Sequence/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moeCodes.Sequence;
@@ -293,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3P6GNU744;
 				INFOPLIST_FILE = Sequence/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moeCodes.Sequence;
