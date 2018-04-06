@@ -42,5 +42,5 @@ class SquareView: UIView {
     func changeViewSize(size: CGSize) {
         frame.size = size
     }
-
+    
 }
